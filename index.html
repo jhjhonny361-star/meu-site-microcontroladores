@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU Decision Hub - Início</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MCU<span>HUB</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Início</a></li>
+            <li><a href="arduino.html">Arduino</a></li>
+            <li><a href="esp32.html">ESP32</a></li>
+            <li><a href="projetos.html">Aplicações</a></li>
+            <li><a href="quiz.html">Descobrir Meu MCU</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Qual o melhor cérebro para o seu projeto?</h1>
+        <p>Explore o ecossistema Arduino e ESP32, conheça suas aplicações acadêmicas e industriais, e faça o teste inteligente para tomar a decisão correta.</p>
+        <div style="display: flex; gap: 20px; justify-content: center;">
+            <a href="quiz.html" class="btn btn-primary">Fazer o Teste de Seleção</a>
+            <a href="projetos.html" class="btn btn-secondary">Ver Projetos Práticos</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 style="text-align: center; margin-bottom: 10px;">Os Ecossistemas Líderes</h2>
+        <p style="text-align: center; color: var(--texto-mutado); margin-bottom: 40px;">Escolha uma das plataformas abaixo para explorar as especificações técnicas detalhadas.</p>
+        
+        <div class="grid-2">
+            <div class="card" style="border-top: 4px solid var(--arduino-verde);">
+                <span class="badge badge-arduino">Simplicidade & Prototipagem</span>
+                <h3>Ecossistema Arduino</h3>
+                <p style="color: var(--texto-mutado); margin-bottom: 20px;">Famoso mundialmente pela sua curva de aprendizado suave, robustez elétrica em 5V e vasta comunidade educacional.</p>
+                <a href="arduino.html" class="btn btn-secondary" style="width: 100%; text-align: center;">Ver Modelos Arduino</a>
+            </div>
+
+            <div class="card" style="border-top: 4px solid var(--esp32-ciano);">
+                <span class="badge badge-esp32">IoT & Alta Performance</span>
+                <h3>Universo ESP32</h3>
+                <p style="color: var(--texto-mutado); margin-bottom: 20px;">Desenvolvido pela Espressif, oferece processamento de núcleo duplo, conectividade sem fio integrada e suporte a IA de borda.</p>
+                <a href="esp32.html" class="btn btn-secondary" style="width: 100%; text-align: center;">Ver Modelos ESP32</a>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
